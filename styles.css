@@ -20,7 +20,7 @@ body {
 }
 
 #left {
-  background-image: url("../src/chipotle-kid.jpeg");
+  background-image: url("./chipotle-kid.jpeg");
   background-size: contain;
   flex: 1;
 }

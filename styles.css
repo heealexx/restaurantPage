@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+}
+
+#header {
+  font-size: 200%;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+#content {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100vh;
+}
+
+#left {
+  background-image: url("../src/chipotle-kid.jpeg");
+  background-size: contain;
+  flex: 1;
+}
+
+#right {
+  flex: 1;
+  background-color: #441500;
+  color: white;
+  padding-top: 25px;
+}
+
+#rightContent {
+  padding-top: 25px;
+}
